@@ -15,7 +15,7 @@
 						<div class="widget-data">
 							<div class="weight-700 font-24 text-dark"></div>
 							<div class="font-14 text-secondary weight-500">
-								Todays Sale
+								Todays User
 							</div>
 						</div>
 						<div class="widget-icon">
@@ -32,7 +32,7 @@
 						<div class="widget-data">
 							<div class="weight-700 font-24 text-dark"></div>
 							<div class="font-14 text-secondary weight-500">
-								Yesterday Sale
+								Total Trip
 							</div>
 						</div>
 						<div class="widget-icon">
@@ -49,7 +49,7 @@
 						<div class="widget-data">
 							<div class="weight-700 font-24 text-dark"></div>
 							<div class="font-14 text-secondary weight-500">
-								This Month Sale
+								Total Seat Allocations
 							</div>
 						</div>
 						<div class="widget-icon">
