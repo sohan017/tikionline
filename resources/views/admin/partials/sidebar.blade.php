@@ -22,11 +22,18 @@
                     </a>
                 </li>
                 <li>
-                    <a href="" class="dropdown-toggle no-arrow">
+                    <a href="{{ route('trip.index') }}" class="dropdown-toggle no-arrow">
                         <span class="micon bi bi-receipt-cutoff"></span
-                        ><span class="mtext">Product</span>
+                        ><span class="mtext">Trip</span>
                     </a>
                 </li>
+                <li>
+                    <a href="{{ route('seatallocation.index') }}" class="dropdown-toggle no-arrow">
+                        <span class="micon bi bi-receipt-cutoff"></span
+                        ><span class="mtext">Seat Allocation</span>
+                    </a>
+                </li>
+                
             </ul>
         </div>
     </div>

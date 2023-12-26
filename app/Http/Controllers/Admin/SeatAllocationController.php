@@ -17,8 +17,8 @@ class SeatAllocationController extends Controller
     {
         $users = User::all();
         $trips = Trip::all();
-        $seatallocation = SeatAllocation::all();
-        return view('admin/seatallocation/index', compact("seatallocation","users","trips") );
+        $seatallocations = SeatAllocation::all();
+        return view('admin/seatallocation/index', compact("seatallocations","users","trips") );
     }
 
     /**
@@ -95,8 +95,9 @@ class SeatAllocationController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(string $id)
+    public function destroy(SeatAllocation $seatallocation)
     {
-        //
+        $seatallocation->delete();
+        return redirect()->route("seatallocation.index")->withSuccess("seat allocation delete success.");
     }
 }
